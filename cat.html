@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cat Photo App</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    img {
+      max-width: 200px;
+      margin-top: 20px;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cat Photo App</h1>
+
+  <ul>
+    <li>Cat Photos</li>
+    <li>Cat Lists</li>
+  </ul>
+
+  <p>Everyone loves <a href="#">cute cats</a> online!</p>
+
+  <img src=" https://i.imgur.com/g7BkAM4.jpeg" alt="Cute cat">
+
+  <h2>Things cats love:</h2>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+     <img src="https://i.imgur.com/UZeFYh6.jpeg" alt="Cats">
+
+  </ul>
+  <p>Cats love lasagna.</p>
+
+  <h2>Top 3 things cats hate:</h2>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+     <img src="https://as2.ftcdn.net/v2/jpg/09/23/09/71/1000_F_923097169_FHb9oLGz1RiIe1XnKEOPtH6JmWkPYv2P.jpg" alt="Cats">
+  </ol>
+  <p>Cats hate other cats.</p>
+
+ 
+  <h2>Cat Form</h2>
+  <form>
+    <label for="indoor-outdoor">Is your cat an indoor or outdoor cat?</label>
+    <input type="radio" id="indoor" name="indoor-outdoor" value="indoor">
+    <label for="indoor">Indoor</label>
+    <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">
+    <label for="outdoor">Outdoor</label><br><br>
+
+    <label for="personality">What's your cat's personality?</label>
+    <select id="personality">
+      <option value="loving">Loving</option>
+      <option value="lazy">Lazy</option>
+      <option value="energetic">Energetic</option>
+    </select><br><br>
+
+    <label for="catPhotoUrl">Cat Photo URL</label>
+    <input type="text" id="catPhotoUrl" name="catPhotoUrl" placeholder="Enter URL"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p>No Copyright - freeCodeCamp.org</p>
+
+</body>
+</html>
